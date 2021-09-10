@@ -28,7 +28,7 @@ class Person {
     }
 
     set age(theAge: number) {
-        if (theAge <= 0 || theAge >= 100){
+        if (theAge <= 0 || theAge >= 100) {
             throw new Error('The age is invalid.');
         }
         this._age = theAge;
@@ -67,7 +67,7 @@ class Employee extends Person {
 }
 
 
-const employee1 = new Employee('Intern', 15000,'Naveen', "bansal", new Date(1988, 5, 23));
+const employee1 = new Employee('Intern', 15000, 'Naveen', 'bansal', new Date(1988, 5, 23));
 employee1.age = 33;
 
 console.log(employee1.fullName);
