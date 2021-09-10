@@ -1,0 +1,17 @@
+TYPESCRIPT :-
+    
+    1. Introduction:
+            What It Is
+            How It Is Different From Js
+            Advantage And Disadvantage
+            Need Of Typescript
+            How Syntax Is Different From JS.
+            Components.
+            Key Points Which Make Typescript More Better
+            Future Aspect Of Ts
+            How It Is Run In Browser.
+            types
+            variables
+            function
+            loops
+            operators, == , ===, ..., destructuring(array, object, array of object)
