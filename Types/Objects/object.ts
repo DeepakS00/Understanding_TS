@@ -24,7 +24,9 @@ const table = {
         brand : 'HP',
     }
 }
+
 let item: keyof typeof table["laptop"];
+
 for (item in table['laptop']) {
     console.log(table['laptop'][item]);
 }

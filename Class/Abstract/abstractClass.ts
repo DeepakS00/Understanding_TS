@@ -3,7 +3,7 @@ abstract class Book {
     }
 
     abstract getSerialN(): string;
-    get genrePlusName(): string{
+    get genrePlusName(): string {
         return `${this.name} is of the genre ${this.genre}`;
     }
 }
@@ -21,6 +21,7 @@ class Novels extends Book implements IShelf {
         public pages: number) {
             super(name, genre);
     }
+    
     getSerialN(): string {
         return `The serial number of this book is ${this.serialNumber} having ${this.pages} number of pages.`;
     }

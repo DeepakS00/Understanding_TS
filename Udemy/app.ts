@@ -32,3 +32,11 @@ const book: Product = {"title": 'Yuu', 'price':90}
 type User = { name: string } | string;
 let u1: User = {name: 'Max'};
 u1 = 'Michael';
+
+// Arrow functions
+
+const printOutput: (a: number | string) => void = output => console.log(output); // In case of single parameter and single expression we can omit curly braces and parenthesis.
+
+printOutput('This works completely fine.');
+
+const add: 

@@ -16,7 +16,9 @@ enum Rankings {
     'deepak'=3,
     rupam,
     'shubham' = 4, 
-    mohit, 'naveen' = 5, hrishabh
+    mohit, 
+    'naveen' = 5, 
+    hrishabh
 };
 
 console.log(Rankings[5]);
@@ -33,6 +35,7 @@ enum Loc {
     shivam = 'Khargon',
     mohit = 'Ahemdabad',
 }
+
 console.log(Loc);
 
 enum FileAccess {

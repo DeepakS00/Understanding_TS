@@ -9,7 +9,7 @@ function myTodo(todo: ITodo): void {
 
 let todo1 = {
     title: 'Deepak', 
-    detail: ' Complete the tasks.'
+    detail: ' Complete the tasks.',
 };
 
 let todo2 = {
@@ -17,13 +17,14 @@ let todo2 = {
     detail: 'Core team meeting for sponsorship.',
     time: '9 am',
     duration: '1 hour',
-}
+};
 
 myTodo(todo1);
 myTodo(todo2); // Both are valid since todo2 is also having same title and detail properties.
 
 
 // Optional parameters
+
 interface IPerson {
     firstName: string;
     middleName?: string;
@@ -51,6 +52,7 @@ worker = {
     ssn: '171-28-0926',
     firstName: 'Donald',
     lastName: 'Trump'
-}
+};
 
+console.log(worker);
 // person.ssn = '171-28-0000'; -->this reassignment will throw an error

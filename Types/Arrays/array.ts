@@ -10,11 +10,14 @@ let squareArray = numericArray.map(x => x**2);
 
 console.log(squareArray);
 
-let unionTypeArray : (string|number|boolean)[] = ['Deepak',56,null,true,null,undefined]
+let unionTypeArray : (string|number|boolean)[] = ['Deepak', 56, null, true, null, undefined]
+
 console.log(unionTypeArray);
 
-/*  NOTE -  any: null|undefined
-            number: [0, 9] | any
-            string: ['a-z','A-Z', special characters] | any
-            boolean: true|false | any
+/*  
+NOTE:-  
+    any: null|undefined
+    number: [0, 9] | any
+    string: ['a-z','A-Z', special characters] | any
+    boolean: true|false | any
 */  
